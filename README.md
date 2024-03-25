@@ -19,4 +19,7 @@ Apache Kafka 3
 
 ## Pré Requisitos
 
-Rodar o docker-compose que está no projeto com comando "docker compose up "
+- Rodar o docker-compose que está no projeto com comando "docker compose up ".
+- Estar na brach Master
+
+
