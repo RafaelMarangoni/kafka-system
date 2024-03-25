@@ -79,7 +79,7 @@ public class OrderConsumerServiceImplTest {
         List<Item> itemList = new ArrayList<>();
         Buyer buierMock = new Buyer("Mock", "Mock","Mock");
         Address adressMock = new Address("mock","mock","mock","mock");
-        Payment paymentMock = new Payment("Mock",new BigDecimal(10),"adressMock");
+        Payment paymentMock = new Payment("DEBIT",new BigDecimal(10),"PENDING");
        return  new OrderRequest("MOCK",LocalDateTime.now(),LocalDateTime.now(),"NEW",itemList,"MOCK",buierMock,adressMock,adressMock,paymentMock);
     }
 

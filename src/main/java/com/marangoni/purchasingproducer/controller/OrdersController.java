@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
 
-public interface SwaggerOrdersController {
+public interface OrdersController {
 
     @GetMapping
     ResponseEntity<List<OrderResponse>> getOrders(@RequestParam(value = "itemName", required = false) String item,

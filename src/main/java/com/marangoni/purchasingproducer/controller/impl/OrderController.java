@@ -1,6 +1,6 @@
 package com.marangoni.purchasingproducer.controller.impl;
 
-import com.marangoni.purchasingproducer.controller.SwaggerOrdersController;
+import com.marangoni.purchasingproducer.controller.OrdersController;
 import com.marangoni.purchasingproducer.response.OrderResponse;
 import com.marangoni.purchasingproducer.services.OrderService;
 import lombok.RequiredArgsConstructor;
@@ -14,7 +14,7 @@ import java.util.List;
 @RequiredArgsConstructor
 @RestController
 @RequestMapping("/orders")
-public class OrderController implements SwaggerOrdersController {
+public class OrderController implements OrdersController {
 
     private final OrderService orderService;
 

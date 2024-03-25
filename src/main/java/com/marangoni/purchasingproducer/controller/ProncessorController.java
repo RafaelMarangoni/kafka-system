@@ -5,7 +5,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
-public interface SwaggerProncessorController {
+public interface ProncessorController {
 
     @PostMapping
     ResponseEntity<?> payment(@RequestBody OrderRequest request);
