@@ -1,0 +1,16 @@
+
+]	java:S125"<This block of commented-out lines of code should be removed.(´š‡õÿÿÿÿÿ8÷İ°ç1
+e
+java:S1128"HRemove this unused import 'org.springframework.context.annotation.Bean'.(‚î‰Ş8øİ°ç1
+s
+java:S1128"QRemove this unused import 'org.springframework.context.annotation.Configuration'.(¬²Úäşÿÿÿÿ8øİ°ç1
+h
+java:S1128"KRemove this unused import 'springfox.documentation.builders.PathSelectors'.(âİ¸ñ8øİ°ç1
+w
+java:S1128"URemove this unused import 'springfox.documentation.builders.RequestHandlerSelectors'.(òßª¿ıÿÿÿÿ8ùİ°ç1
+g
+java:S1128"JRemove this unused import 'springfox.documentation.spi.DocumentationType'.(ÉêÉ¥8ùİ°ç1
+k
+java:S1128"NRemove this unused import 'springfox.documentation.spring.web.plugins.Docket'.(‡éÔå8ùİ°ç1
+u
+java:S1128	"XRemove this unused import 'springfox.documentation.swagger2.annotations.EnableSwagger2'.(ùÔ¨8úİ°ç1
