@@ -1,0 +1,18 @@
+server:
+  port: 8000
+
+spring:
+  application:
+    name: purchasing-processor-producer
+  kafka:
+    producer:
+      bootstrap-servers: localhost:29092
+  data:
+    mongodb: //mongo-service:27017
+    database: processor
+    auto-index-creation: true
+
+
+
+
+
